@@ -6,8 +6,8 @@ SCP-372 is invisible unless it shoots, throws grenades, opens doors or speaks.
 
 - Role Information
 ```
-RoleID: 682
-RoleName: SCP-682
+RoleID: 372
+RoleName: SCP-372
 Team: Scp
 ```
 
