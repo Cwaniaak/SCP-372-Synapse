@@ -1,24 +1,17 @@
-# SCP-372-EXILED
+# SCP-372-Synapse
 Adds a SCP-372 to the game.
 ## Description
 
-SCP-372 is invisible (unless it shoots, throws grenades, opens doors, opens items lockers or speaks) and it cannot hurt other SCPs.
-```s_c_p372:
-# Whether or not this plugin is enabled.
-  is_enabled: true
-  spawn_chance: 50
-  max_s_c_p372_count: 1
-  spawn_message:
-  # The broadcast content
-    content: >-
-      <b>You have spawned as <color=red>SCP-372</color></b>
+SCP-372 is invisible unless it shoots, throws grenades, opens doors or speaks.
 
-      <i>you are invisible (unless you shoot or speak), cooperate with SCPs</i>
-    # The broadcast duration
-    duration: 10
-    # The broadcast type
-    type: Normal
-    # Indicates whether the broadcast should be shown or not
-    show: true
-  # how much health should SCP-372 have
-  health: 150
+- Role Information
+```
+RoleID: 682
+RoleName: SCP-682
+Team: Scp
+```
+
+## Installation
+1. [Install Synapse](https://github.com/SynapseSL/Synapse/wiki#hosting-guides)
+2. Place the  SCP-372.dll file that you can download [here](https://github.com/Cwaniaak/SCP-372-Synapse/releases/latest) in your plugin directory
+3. Restart/Start your server.
