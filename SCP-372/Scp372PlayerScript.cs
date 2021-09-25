@@ -8,7 +8,7 @@ namespace SCP_372
 {
     public class Scp372PlayerScript : Synapse.Api.Roles.Role
     {
-        public override int GetRoleID() => 682;
+        public override int GetRoleID() => 372;
 
         public override string GetRoleName() => "SCP-372";
 
