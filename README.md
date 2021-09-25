@@ -12,6 +12,6 @@ Team: Scp
 ```
 
 ## Installation
-1. [Install Synapse](https://github.com/SynapseSL/Synapse/wiki#hosting-guides)
+1. [Install Synapse](https://docs.synapsesl.xyz/setup/setup)
 2. Place the  SCP-372.dll file that you can download [here](https://github.com/Cwaniaak/SCP-372-Synapse/releases/latest) in your plugin directory
 3. Restart/Start your server.
