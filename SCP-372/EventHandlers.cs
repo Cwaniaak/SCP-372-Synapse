@@ -14,7 +14,6 @@ namespace SCP_372
     {
         public EventHandlers()
         {
-            Server.Get.Events.Player.PlayerThrowGrenadeEvent += OnThrowingGrenade;
             Server.Get.Events.Player.PlayerDropItemEvent += OnDroppingItem;
             Server.Get.Events.Map.DoorInteractEvent += OnInteractingDoor;
             Server.Get.Events.Player.PlayerPickUpItemEvent += OnPickingUpItem;
@@ -56,15 +55,6 @@ namespace SCP_372
             {
                 ev.Player.Invisible = false;
                 Timing.CallDelayed(0.5f, () => { ev.Player.Invisible = true; });
-            }
-        }
-
-        public void OnThrowingGrenade(PlayerThrowGrenadeEventArgs ev)
-        {
-            if (ev.Player.RoleID == 372)
-            {
-                ev.Player.Invisible = false;
-                Timing.CallDelayed(1f, () => { ev.Player.Invisible = true; });
             }
         }
 
